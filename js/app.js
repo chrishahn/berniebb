@@ -38,7 +38,7 @@ var RowView = Backbone.View.extend({
 	},
 
 	render: function () {
-		this.$el.append( this.rowTpl( this.model.toJSON() ) );
+		this.$el.prepend( this.rowTpl( this.model.toJSON() ) );
 		return this;
 	}
 });
