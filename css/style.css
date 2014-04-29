@@ -41,3 +41,41 @@ hr {
     font-size: 1em;
     padding: 3px 9px;
 }
+
+.add {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #006699;
+    min-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.add .form {
+    display: none;
+    cursor: default;
+    text-align: left;
+}
+
+.add .form input, .add .form textarea {
+    font-size: 1em;
+    width: 80%;
+}
+
+.label {
+    padding-left: 9px;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #2f2f2f;
+    width: 39%;
+    margin: 10px 14px 10px 0px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+}
+
+.error {
+    background-color: #ffff33;
+}

@@ -1,4 +1,4 @@
 berniebb
 ========
 
-Backbone/Bootstrap interface for the BernieNode REST service
+Backbone interface for the BernieNode REST service
