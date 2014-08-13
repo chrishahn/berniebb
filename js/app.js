@@ -69,8 +69,8 @@ $(document).ready(function() {
             bernie = $('#new-bernie').val(),
             description = $('#new-description').val(),
             model = new Bernie({
-                bernietext: real,
-                realtext: bernie,
+                bernietext: bernie,
+                realtext: real,
                 description: description
             }),
             valid = true;
